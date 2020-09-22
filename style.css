@@ -109,3 +109,11 @@ button:disabled {
 .shake {
   animation: shake 0.5s;
 }
+@media only screen and (max-width: 600px) {
+  #letters button {
+    padding: 7px;
+    margin: 4px;
+    flex-basis: 20%;
+    font-size: 43px;
+  }
+}
